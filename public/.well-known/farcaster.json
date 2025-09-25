@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Vitalik'S Wisdom",
+    "subtitle": "Built with Zara",
+    "description": "Vitalik'S Wisdom is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://a35ab0a346214f2b8fd599b026919ea5-fj4u.vercel.app",
+    "splashImageUrl": "https://a35ab0a346214f2b8fd599b026919ea5-fj4u.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://a35ab0a346214f2b8fd599b026919ea5-fj4u.vercel.app/image.png",
+    "tagline": "Vitalik'S Wisdom",
+    "screenshotUrls": [
+      "https://a35ab0a346214f2b8fd599b026919ea5-fj4u.vercel.app/screenshot.png",
+      "https://a35ab0a346214f2b8fd599b026919ea5-fj4u.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://a35ab0a346214f2b8fd599b026919ea5-fj4u.vercel.app/api/webhook"
+  }
+}

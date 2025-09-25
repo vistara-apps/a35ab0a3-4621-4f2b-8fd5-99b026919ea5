@@ -1,0 +1,14 @@
+{
+  "name": "Vitalik'S Wisdom",
+  "description": "Vitalik'S Wisdom is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://a35ab0a3-4621-4f2b-8fd5-99b026919ea5.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Vitalik'S Wisdom",
+      "description": "Vitalik'S Wisdom is a Base Mini App built with Zara.",
+      "url": "https://a35ab0a3-4621-4f2b-8fd5-99b026919ea5.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
