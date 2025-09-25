@@ -3,10 +3,11 @@ import { getQuotesByTheme } from '@/lib/quotes';
 
 export async function GET(
   request: Request,
-  { params }: { params: { themeId: string } }
+  { params }: { params: Promise<{ themeId: string }> }
 ) {
   try {
-    const quotes = getQuotesByTheme(params.themeId);
+    const { themeId } = await params;
+    const quotes = getQuotesByTheme(themeId);
     return NextResponse.json(quotes);
   } catch (error) {
     return NextResponse.json(
