@@ -129,6 +129,102 @@ export const quotes: Quote[] = [
     theme: 'governance',
     createdAt: '2024-01-01T00:00:00Z',
     updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '13',
+    text: 'Privacy is not just about hiding information; it\'s about giving people control over their own data.',
+    author: 'Vitalik Buterin',
+    theme: 'philosophy',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '14',
+    text: 'Layer 2 solutions are not just optimizations; they\'re essential for Ethereum\'s long-term success.',
+    author: 'Vitalik Buterin',
+    theme: 'scalability',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '15',
+    text: 'Decentralized governance is hard, but it\'s worth it because it prevents capture by special interests.',
+    author: 'Vitalik Buterin',
+    theme: 'governance',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '16',
+    text: 'The real innovation in crypto is not the technology itself, but the new social and economic systems it enables.',
+    author: 'Vitalik Buterin',
+    theme: 'innovation',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '17',
+    text: 'Ethereum 2.0 is not just an upgrade; it\'s a complete reimagining of what blockchain can be.',
+    author: 'Vitalik Buterin',
+    theme: 'ethereum',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '18',
+    text: 'Trust is earned through consistent behavior over time, not through marketing or hype.',
+    author: 'Vitalik Buterin',
+    theme: 'philosophy',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '19',
+    text: 'The most successful projects in crypto are the ones that solve real problems for real users.',
+    author: 'Vitalik Buterin',
+    theme: 'innovation',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '20',
+    text: 'Regulation in crypto should focus on consumer protection, not innovation suppression.',
+    author: 'Vitalik Buterin',
+    theme: 'governance',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '21',
+    text: 'Zero-knowledge proofs will be one of the most important cryptographic tools of the next decade.',
+    author: 'Vitalik Buterin',
+    theme: 'scalability',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '22',
+    text: 'The future of money is programmable money - money that can be controlled by code.',
+    author: 'Vitalik Buterin',
+    theme: 'ethereum',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '23',
+    text: 'Community is the most important asset in any crypto project.',
+    author: 'Vitalik Buterin',
+    theme: 'governance',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
+  },
+  {
+    id: '24',
+    text: 'The best way to predict the future is to build it.',
+    author: 'Vitalik Buterin',
+    theme: 'innovation',
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2024-01-01T00:00:00Z'
   }
 ];
 

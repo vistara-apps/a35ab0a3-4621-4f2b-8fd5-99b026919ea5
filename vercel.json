@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "app/api/og/route.tsx": {
+      "runtime": "@vercel/og"
+    }
+  },
+  "regions": ["iad1"],
+  "framework": "nextjs"
+}
+

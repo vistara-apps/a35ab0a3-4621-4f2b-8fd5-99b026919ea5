@@ -1,14 +1,15 @@
 # Vitalik's Wisdom
 
-A Base Mini App that serves curated Vitalik Buterin quotes in beautiful, shareable poster formats for Web3 enthusiasts.
+A Farcaster Frame and Base Mini App that serves curated Vitalik Buterin quotes in beautiful, shareable poster formats for Web3 enthusiasts.
 
 ## Features
 
 - **Random Quote Display**: Get instant inspiration with randomly selected Vitalik quotes
 - **Themed Collections**: Browse quotes by categories like Scalability, Governance, Ethereum, Philosophy, and Innovation
-- **Shareable Posters**: Beautiful, social media-ready quote cards
-- **Multiple Themes**: Support for different blockchain themes (Default, Celo, Solana, Base, Coinbase)
-- **Farcaster Integration**: Built for seamless sharing within the Farcaster ecosystem
+- **Shareable Posters**: Beautiful, social media-ready quote cards with dynamic OG images
+- **Farcaster Frame**: Full Frame v2 support with interactive buttons and state management
+- **Theme Navigation**: Browse quotes by theme within the Frame interface
+- **Social Sharing**: Share quotes directly to Farcaster or copy links
 - **OnchainKit Integration**: Wallet connection and identity features
 
 ## Tech Stack
@@ -81,7 +82,23 @@ Switch themes by adding `?theme=themeName` to the URL or visit `/theme-preview`.
 - **Philosophy**: Broader thoughts on technology and society
 - **Innovation**: On building the future of technology
 
-## API Endpoints
+## Farcaster Frame
+
+The app includes full Farcaster Frame v2 support:
+
+- **Frame URL**: `/frame` - Main Frame entry point
+- **Interactive Buttons**: New Quote, Browse Themes, Share, Next in Theme
+- **State Management**: Maintains quote selection and navigation state
+- **Dynamic Images**: OG images generated for each quote
+- **Theme Navigation**: Browse quotes by category within Frame
+
+### Frame API Endpoints
+
+- `GET /frame` - Main Frame HTML with metadata
+- `POST /api/frame/action` - Handle Frame button interactions
+- `GET /api/og` - Generate dynamic Open Graph images for quotes
+
+### Regular API Endpoints
 
 - `GET /api/quotes/random` - Get a random quote
 - `GET /api/quotes/theme/[themeId]` - Get quotes by theme
